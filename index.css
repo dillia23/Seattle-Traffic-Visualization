@@ -1,5 +1,9 @@
-.bar {
-  color: white;
-  height: 20px;
-  background-color: blue;
+.chart rect {
+  fill: steelblue;
+}
+
+.chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
 }
