@@ -1,0 +1,23 @@
+{
+  "name": "Seattle-Traffic-Visualization",
+  "version": "1.0.0",
+  "description": "Creating D3 visualization of Seattle traffic data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dillia23/Seattle-Traffic-Visualization.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dillia23/Seattle-Traffic-Visualization/issues"
+  },
+  "homepage": "https://github.com/dillia23/Seattle-Traffic-Visualization#readme",
+  "dependencies": {
+    "d3": "^3.5.17"
+  }
+}
