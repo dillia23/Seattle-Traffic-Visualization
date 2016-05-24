@@ -41,6 +41,9 @@ function createBarChart(data) {
 	    .enter().append("g")
 	    .attr("transform", function(d, i) { return "translate(0," + i * barHeight + ")"; });
 
+	bar.append("title")
+	    .text(function(d) { return d.stname; });
+
 	bar.append("rect")
 	    .attr("width", function(d) { return x(d.aawdt); })
 	    .attr("height", barHeight - 1);
